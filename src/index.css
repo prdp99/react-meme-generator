@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  background: linear-gradient(#672280, #8624a8, #a626d3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  color: white;
+  height: 60px;
+  box-shadow: 2px 1px 5px 3px rgb(146, 145, 145);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo img {
+  height: 40px;
+}
+.project-number {
+  margin-right: 1rem;
+}
+.form {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.grid-col-span-2 {
+  grid-column: span 2;
+  min-width: 490px;
+}
+
+.form input {
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  border: 2px solid rgb(200, 199, 199);
+}
+.form button {
+  background: linear-gradient(#804695, #9042aa, #a72bd4);
+  border: none;
+  padding: 0.8rem;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: box-shadow 0.3s linear;
+}
+input:focus {
+  outline: none;
+}
+.form button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 12px 2px rgb(50, 83, 160);
+}
+.meme {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.meme img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.bottom-text {
+  position: absolute;
+  font-size: 2rem;
+  bottom: 3rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.top-text {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 1px rgb(8, 8, 8);
+}
